@@ -20,6 +20,7 @@
             "outputPath": "dist/karori-energy-technology",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/KaroriEnergyTechnology/",
             "polyfills": [
               "zone.js"
             ],
