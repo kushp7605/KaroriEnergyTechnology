@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/missan-group-website",
+            "outputPath": "dist/karori-energy-technology",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "MissanGroupWebsite:build:production"
+              "buildTarget": "KaroriEnergyTechnology:build:production"
             },
             "development": {
-              "buildTarget": "MissanGroupWebsite:build:development"
+              "buildTarget": "KaroriEnergyTechnology:build:development"
             }
           },
           "defaultConfiguration": "development"
