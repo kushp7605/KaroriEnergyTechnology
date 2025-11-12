@@ -372,3 +372,30 @@ p {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .energy-ring { width: 250px; height: 250px; }
+  .logo { width: 200px; }
+}
+
+@media (max-width: 992px) {
+  .energy-ring { width: 220px; height: 220px; }
+  .logo { width: 180px; }
+  .tagline, .brand-headline { font-size: 1.3rem; }
+}
+
+@media (max-width: 768px) {
+  .loader-center { padding-top: 150px; }
+  .energy-ring { width: 180px; height: 180px; }
+  .logo { width: 150px; }
+  .tagline, .brand-headline { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+  .loader-center { padding-top: 100px; }
+  .energy-ring { width: 140px; height: 140px; }
+  .logo { width: 120px; }
+  .tagline, .brand-headline { font-size: 1rem; }
+  .bg-tile { width: 30px; height: 30px; }
+}
+
