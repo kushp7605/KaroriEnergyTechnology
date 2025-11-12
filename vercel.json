@@ -8,8 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/dist/karori-energy-technology/index.html"
     }
   ]
 }
