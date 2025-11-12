@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "public": "dist/karori-energy-technology/browser",
+  "builds": [
+    {
+      "src": "dist/karori-energy-technology/browser/",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
