@@ -214,6 +214,11 @@ p {
   position: relative;
 }
 
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); visibility: visible; }
+  to { opacity: 1; transform: translateY(0); visibility: visible; }
+}
+
 /* Tagline Below Ring */
 .tagline {
   margin-bottom: 200px; /* slightly below the ring */
@@ -227,14 +232,29 @@ p {
   text-align: center;
 }
 
+@keyframes fadeScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); 
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05); 
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); 
+  }
+}
+
+
 .brand-headline {
   color: #fbb034;
   font-size: 1.5rem;
   text-align: center;
   margin-top: 80px;
-  transform: translateY(20px);
-  animation: fadeUp 1s ease forwards;
-  animation-delay: 0.8s;
+  animation: fadeScaleIn 1.2s ease forwards;
+  animation-delay: 1s;
 }
 
 /* ─────────── Golden Rain ─────────── */
