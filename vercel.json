@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/karori-energy-technology/browser/**",
+      "src": "dist/karori-energy-technology/browser",
       "use": "@vercel/static"
     }
   ],
