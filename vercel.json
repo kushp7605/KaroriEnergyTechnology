@@ -2,8 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/karori-energy-technology/**/*",
-      "use": "@vercel/static"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/karori-energy-technology"
+      }
     }
   ],
   "routes": [
@@ -12,7 +15,7 @@
     },
     {
       "src": "/.*",
-      "dest": "/dist/karori-energy-technology/index.html"
+      "dest": "/index.html"
     }
   ]
 }
