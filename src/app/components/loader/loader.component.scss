@@ -44,19 +44,7 @@ p {
       transform-origin: 0 0;
     }
   }
-  //Bounce
-  //.spinner-icon {
-  //  animation: bounce 1.5s ease-in-out infinite;
-  //}
-  //
-  //@keyframes bounce {
-  //  0%, 100% {
-  //    transform: translateY(0);
-  //  }
-  //  50% {
-  //    transform: translateY(-10px);
-  //  }
-  //}
+  
 
   //Scale
   .spinner-icon {
@@ -74,20 +62,6 @@ p {
       transform: scale(1.1);
     }
   }
-
-  //Translate
-  //.spinner-icon {
-  //  animation: slide 1.5s ease-in-out infinite;
-  //}
-  //
-  //@keyframes slide {
-  //  0%, 100% {
-  //    transform: translateY(0);
-  //  }
-  //  50% {
-  //    transform: translateY(5px);
-  //  }
-  //}
 
   &__tile {
     position: absolute;
@@ -258,6 +232,8 @@ p {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 80px;
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.8s;
 }
 
 /* ─────────── Golden Rain ─────────── */
